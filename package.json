@@ -1,0 +1,48 @@
+{
+  "name": "ua-string",
+  "version": "0.0.0",
+  "description": "Get the user agent of a recent Chrome version to pretend to be a browser in network requests",
+  "license": "MIT",
+  "repository": "sindresorhus/ua-string",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "ua",
+    "user-agent",
+    "user",
+    "agent",
+    "navigator",
+    "browser",
+    "chrome",
+    "network",
+    "request",
+    "fetch",
+    "got",
+    "http",
+    "header",
+    "string",
+    "recent",
+    "pretend",
+    "imitate",
+    "mimic"
+  ],
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
