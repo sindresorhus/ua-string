@@ -1,6 +1,6 @@
 {
   "name": "ua-string",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Get the user agent of a recent Chrome version to pretend to be a browser in network requests",
   "license": "MIT",
   "repository": "sindresorhus/ua-string",
