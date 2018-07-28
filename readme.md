@@ -10,7 +10,7 @@ Some sites and services block non-browser requests or respond differently.
 ## Install
 
 ```
-$ npm install --save ua-string
+$ npm install ua-string
 ```
 
 

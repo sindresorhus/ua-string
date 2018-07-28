@@ -1,7 +1,7 @@
 import test from 'ava';
-import m from './';
+import usString from '.';
 
-test(t => {
-	t.is(typeof m, 'string');
-	t.true(m.includes('Chrome'));
+test('main', t => {
+	t.is(typeof usString, 'string');
+	t.true(usString.includes('Chrome'));
 });
