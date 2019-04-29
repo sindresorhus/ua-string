@@ -1,7 +1,7 @@
 import test from 'ava';
-import uaString from '.';
+import userAgentString from '.';
 
 test('main', t => {
-	t.is(typeof uaString, 'string');
-	t.true(uaString.includes('Chrome'));
+	t.is(typeof userAgentString, 'string');
+	t.true(userAgentString.includes('Chrome'));
 });

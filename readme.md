@@ -18,11 +18,11 @@ $ npm install ua-string
 
 ```js
 const got = require('got');
-const uaString = require('ua-string');
+const userAgentString = require('ua-string');
 
-got('sindresorhus.com', {
+got('https://sindresorhus.com', {
 	headers: {
-		'user-agent': uaString
+		'user-agent': userAgentString
 	}
 });
 ```

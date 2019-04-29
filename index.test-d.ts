@@ -1,4 +1,4 @@
 import {expectType} from 'tsd';
-import uaString = require('.');
+import userAgentString = require('.');
 
-expectType<string>(uaString);
+expectType<string>(userAgentString);
