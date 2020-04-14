@@ -6,7 +6,7 @@ Get the [user agent](https://en.wikipedia.org/wiki/User_agent) of a recent Chrom
 import got = require('got');
 import userAgentString = require('ua-string');
 
-got('sindresorhus.com', {
+got('https://sindresorhus.com', {
 	headers: {
 		'user-agent': userAgentString
 	}

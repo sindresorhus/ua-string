@@ -6,13 +6,11 @@ Some sites and services block non-browser requests or respond differently.
 
 *I will update this module once in a while with the latest user agent.*
 
-
 ## Install
 
 ```
 $ npm install ua-string
 ```
-
 
 ## Usage
 
@@ -26,8 +24,3 @@ got('https://sindresorhus.com', {
 	}
 });
 ```
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
