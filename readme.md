@@ -1,4 +1,4 @@
-# ua-string [![Build Status](https://travis-ci.org/sindresorhus/ua-string.svg?branch=master)](https://travis-ci.org/sindresorhus/ua-string)
+# ua-string
 
 > Get the [user agent](https://en.wikipedia.org/wiki/User_agent) of a recent Chrome version to pretend to be a browser in network requests
 
