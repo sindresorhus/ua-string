@@ -15,10 +15,10 @@ $ npm install ua-string
 ## Usage
 
 ```js
-const got = require('got');
-const userAgentString = require('ua-string');
+import got from 'got';
+import userAgentString from 'ua-string';
 
-got('https://sindresorhus.com', {
+await got('https://sindresorhus.com', {
 	headers: {
 		'user-agent': userAgentString
 	}

@@ -3,10 +3,10 @@ Get the [user agent](https://en.wikipedia.org/wiki/User_agent) of a recent Chrom
 
 @example
 ```
-import got = require('got');
-import userAgentString = require('ua-string');
+import got from 'got';
+import userAgentString from 'ua-string';
 
-got('https://sindresorhus.com', {
+await got('https://sindresorhus.com', {
 	headers: {
 		'user-agent': userAgentString
 	}
@@ -15,4 +15,4 @@ got('https://sindresorhus.com', {
 */
 declare const userAgentString: string;
 
-export = userAgentString;
+export default userAgentString;
