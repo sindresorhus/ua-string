@@ -3,5 +3,5 @@ import userAgentString from './index.js';
 
 test('main', t => {
 	t.is(typeof userAgentString, 'string');
-	t.true(userAgentString.includes('Chrome'));
+	t.true(userAgentString.includes('Safari'));
 });
