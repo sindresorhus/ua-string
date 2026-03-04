@@ -8,8 +8,8 @@ Some sites and services block non-browser requests or respond differently.
 
 ## Install
 
-```
-$ npm install ua-string
+```sh
+npm install ua-string
 ```
 
 ## Usage
